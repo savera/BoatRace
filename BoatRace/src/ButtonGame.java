@@ -130,7 +130,8 @@ public class ButtonGame implements KeyListener {
 
 		System.out.println(e.getKeyCode());
 
-		if (e.getKeyCode() == 39) {
+		if (e.getKeyCode() == 49) {
+
 
 			player1++;
 
@@ -139,7 +140,7 @@ public class ButtonGame implements KeyListener {
 			rp.increaseX();
 
 		}
-		if (e.getKeyCode() == 37) {
+		if (e.getKeyCode() == 48) {
 
 			player2++;
 
